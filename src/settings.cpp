@@ -27,7 +27,7 @@ static json_t *settingsToJson() {
 //		Vec windowPos = guiGetWindowPos();
 //		json_t *windowPosJ = json_pack("[f, f]", windowPos.x, windowPos.y);
 //		json_object_set_new(rootJ, "windowPos", windowPosJ);
-	}
+//	}
 
 	// opacity
 	float opacity = gToolbar->wireOpacitySlider->value;
