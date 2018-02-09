@@ -17,7 +17,7 @@ static json_t *settingsToJson() {
 	json_t *tokenJ = json_string(gToken.c_str());
 	json_object_set_new(rootJ, "token", tokenJ);
 
-	if (!guiIsMaximized()) {
+//	if (!guiIsMaximized()) {
 		// windowSize
 //		Vec windowSize = guiGetWindowSize();
 //		json_t *windowSizeJ = json_pack("[f, f]", windowSize.x, windowSize.y);
