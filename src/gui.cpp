@@ -507,7 +507,8 @@ void guiSetWindowPos(Vec pos) {
 }
 
 bool guiIsMaximized() {
-	return glfwGetWindowAttrib(gWindow, GLFW_MAXIMIZED);
+    // workaround for xmonad
+    return true;
 }
 
 
